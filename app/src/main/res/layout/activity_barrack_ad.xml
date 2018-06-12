@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a9bf99"
+    android:orientation="vertical"
+    tools:context=".Cossipore">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address/Location"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="K V Barrackpore (Army)                                    P O BARRACKPORE                                     Distt: 24 Parganas(North)"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Kolkata-700120"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="1. From HOWRAH Railway Station, may catch a pre-paid taxi for BARRACKPORE.
+
+
+
+
+2. From HOWRAH Railway Station, catch a pre-paid taxi to SEALDAH Rly. Stn. and from SEALDAH Rly Stn. can catch local train for Barrackpore.
+
+OR
+
+
+3. From HOWRAH Railway Station, can catch local train for SRI RAMPUR Rly. Stn., then via river LAUNCH, directly to BARRACKPORE.
+
+OR
+
+
+4. From SEALDAH Railway Station, can catch local train for BARRACKPORE."
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ad8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonstyle"
+                android:text="Click here to view the map" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

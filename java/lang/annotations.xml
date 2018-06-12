@@ -1,0 +1,5 @@
+<root>
+    <item name='java.lang.Thread void blockedOn(Interruptible) 0'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

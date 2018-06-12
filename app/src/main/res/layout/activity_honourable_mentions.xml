@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a9bf99"
+    android:orientation="vertical"
+    tools:context=".Developer">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Honourable Mentions"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="12dp" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="465dp"
+                android:background="@android:color/holo_red_light"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="330dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    app:srcCompat="@drawable/captu" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="349dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    app:srcCompat="@drawable/tw" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="305dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    app:srcCompat="@drawable/thr" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="289dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    app:srcCompat="@drawable/fr" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:paddingTop="5dp"
+                    app:srcCompat="@drawable/fv" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:paddingTop="5dp"
+                    app:srcCompat="@drawable/sx" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:paddingTop="5dp"
+                    app:srcCompat="@drawable/sv" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingTop="5dp"
+                    app:srcCompat="@drawable/eg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="***This app is made as a reference to the different domains of the specific websites mention above.This app is made in the sense of helping the audience by providing all the information of various schools in a specific product. There is no intent of offending anyone while makeing this app.If you think your copright or trademark is violated then please drop a email to sensrdt@gmail.com.We hope not to offend any one. "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:paddingTop="25dp"
+                    android:text="***We have tried to keep the data as accurate as possible.We have updated our data by gathering the info from the specific websites of various schools.We will provide valuable updates whenever there is an update in the websites. Hope the user feel comfortable in using this app."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

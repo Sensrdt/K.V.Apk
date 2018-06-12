@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jkd.kvkolkataregion">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".AnimationPage"
+            android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Navigation"
+            android:label="K.V.Kolkata"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Cossipore" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".Developer" />
+        <activity android:name=".SaltLake1" />
+        <activity android:name=".HomePagesl1" />
+        <activity android:name=".SaltLake2" />
+        <activity android:name=".HomePagesl2" />
+        <activity android:name=".Aboutkv" />
+        <activity android:name=".OfDumDum" />
+        <activity android:name=".HomePageofDD" />
+        <activity android:name=".HonourableMentions" />
+        <activity android:name=".FortWilliam" />
+        <activity android:name=".HomePagefw" />
+        <activity android:name=".Ishapore1" />
+        <activity android:name=".HomePagei1" />
+        <activity android:name=".Ishapore2" />
+        <activity android:name=".HomePagei2" />
+        <activity android:name=".Ballygaung" />
+        <activity android:name=".HomePageb" />
+        <activity android:name=".Barrackpore" />
+        <activity android:name=".HomePagebarr" />
+        <activity android:name=".CosContact" />
+        <activity android:name=".Salt1Contact" />
+        <activity android:name=".Salt2Contact" />
+        <activity android:name=".DumDumContact" />
+        <activity android:name=".FortWilliamContact" />
+        <activity android:name=".Isha1Contact" />
+        <activity android:name=".Isha2Contact" />
+        <activity android:name=".BallyContact" />
+        <activity android:name=".BarracContact" />
+        <activity android:name=".CosAlumni" />
+        <activity android:name=".Salt1Alumni" />
+        <activity android:name=".Salt2Alumni" />
+        <activity android:name=".OfDAlumni" />
+        <activity android:name=".FwAlumni" />
+        <activity android:name=".Isha1Alumni" />
+        <activity android:name=".Isha2Alumni" />
+        <activity android:name=".BallyAlumni" />
+        <activity android:name=".BarrackAlumni" />
+        <activity android:name=".Fee" />
+        <activity android:name=".CosAd" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".CosLo"
+            android:label="@string/title_activity_cos_lo" />
+        <activity android:name=".Salt1Ad" />
+        <activity
+            android:name=".Salt1Lo"
+            android:label="@string/title_activity_salt1_lo" />
+        <activity android:name=".Salt2Ad" />
+        <activity
+            android:name=".Salt2Lo"
+            android:label="@string/title_activity_salt2_lo" />
+        <activity android:name=".OfDDAd" />
+        <activity
+            android:name=".OfDDLo"
+            android:label="@string/title_activity_of_ddlo" />
+        <activity android:name=".FwAd" />
+        <activity
+            android:name=".FwLo"
+            android:label="@string/title_activity_fw_lo" />
+        <activity android:name=".Isha1Ad" />
+        <activity
+            android:name=".Isha1Lo"
+            android:label="@string/title_activity_isha1_lo" />
+        <activity android:name=".Isha2Ad" />
+        <activity
+            android:name=".Isha2Lo"
+            android:label="@string/title_activity_isha2_lo" />
+        <activity android:name=".BallyAd" />
+        <activity
+            android:name=".BallyLo"
+            android:label="@string/title_activity_bally_lo" />
+        <activity android:name=".BarrackAd" />
+        <activity
+            android:name=".BarrackLo"
+            android:label="@string/title_activity_barrack_lo" />
+        <activity android:name=".FwAdm" />
+        <activity android:name=".OfAdm"></activity>
+    </application>
+
+</manifest>

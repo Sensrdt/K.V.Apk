@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a9bf99"
+    android:orientation="vertical"
+    tools:context=".Developer">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="About KV"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="12dp" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/sr" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="The Kendriya Vidyalayas are a system of central government schools in India that were instituted under the aegis of the Ministry of Human Resource Development (MHRD). It comprises over 1,094 schools in India and three abroad. It is one of world's largest chain of schools.It was started in 1962."
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:text="Features"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="All the schools share a common syllabus and offer bilingual instruction, in English and Hindi. They are co-educational.  Sanskrit is taught as a compulsory subject from classes VI to VIII[citation needed] and as an optional subject until class X. Students in classes VI to VIII could study the German language until November 2014, when the scheme was discontinued. But was again re continued. In Moscow, students are given an opportunity to choose French or Russian as their third or second language.  Tuition fees are charged for boys from class IX onward, and students have to pay the school development fund (Vidyalaya Vikas Nidhi), with the proceeds spent on the development of that particular school. Students from Scheduled Castes and Scheduled Tribes and children of KVS employees are exempt from tuition fees. Girls who are their parents' only child from class VI onward are exempt from tuition and school development fund payments. All members of parliament could recommend up to six students from their constituency for admission to a Kendriya Vidyalaya. From the academic session 2016-17, the quota has been increased to 10 students. The Quality Council of India (QCI) has accredited two of KV schools, KV RK Puram and KV IIT Powai."
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

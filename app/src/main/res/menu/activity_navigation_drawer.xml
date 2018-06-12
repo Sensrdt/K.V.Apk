@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_school_black_24dp"
+        android:title="About KV" />
+
+    <item
+        android:id="@+id/developer"
+        android:icon="@drawable/ic_developer_mode_black_24dp"
+        android:title="Developer" />
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Share" />
+    <item
+        android:id="@+id/mentions"
+        android:icon="@drawable/ic_thumb_up_black_24dp"
+        android:title="Honourable Mentions" />
+    <item
+        android:id="@+id/fee"
+        android:icon="@drawable/ic_attach_money_black_24dp"
+        android:title="Fee Payment" />
+
+</menu>

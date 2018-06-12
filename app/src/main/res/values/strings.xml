@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">K.V.Kolkata Region</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="procced">Procced</string>
+    <string name="kendriya_vidalaya">Kendriya Vidalaya</string>
+    <string name="sensrdt">--Sensrdt</string>
+    <string name="welcome">WELCOME</string>
+    <string name="to">to</string>
+    <string name="k_v_kolkata_region">K.V.Kolkata Region</string>
+    <string name="check_out_the_info_you_want">Check out the info you want--</string>
+    <string name="click_here_to_procced">Click here to procced</string>
+    <string name="c_reserved_terms_and_conditions">(c)Reserved Terms and Conditions</string>
+    <string name="title_activity_cos_lo">Map</string>
+    <string name="title_activity_salt1_lo">Map</string>
+    <string name="title_activity_salt2_lo">Map</string>
+    <string name="title_activity_of_ddlo">Map</string>
+    <string name="title_activity_fw_lo">Map</string>
+    <string name="title_activity_isha1_lo">Map</string>
+    <string name="title_activity_isha2_lo">Map</string>
+    <string name="title_activity_bally_lo">Map</string>
+    <string name="title_activity_barrack_lo">Map</string>
+</resources>
